@@ -1,0 +1,13 @@
+import { Category } from "../catagories";
+import { Command } from "../command";
+
+
+const example: Command = {
+    name: "",
+    category: Category.,
+    description: "",
+    usage: "",
+    run: async (message, ...args) => { }
+}
+
+export default example;
